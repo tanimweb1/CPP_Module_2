@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-int a,b;
+long long int a,b;
 cin>>a>>b;
 
 long long int sum,multi,sub;
@@ -11,9 +11,10 @@ sub = a-b;
 multi = a*b;
 
 
-cout<<a<<" "<<"+"<< " "<< b << " "<< "="<<" "<<sum<<endl;
-cout<<a<<" "<<"*"<< " "<< b << " "<< "="<<" "<<multi<<endl;
-cout<<a<<" "<<"-"<< " "<< b << " "<< "="<<" "<<sub<<endl;
+cout<<a<<" + "<< b<<" = "<<sum<<endl;
+cout<<a<<" * "<< b<<" = "<<multi<<endl;
+cout<<a<<" - "<< b<<" = "<<sub<<endl;
+
 
 
 

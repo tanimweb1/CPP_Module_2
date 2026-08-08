@@ -5,7 +5,7 @@ int main(){
 int a,b;
 cin>>a>>b;
 
-int sum,multi,sub;
+long long int sum,multi,sub;
 sum = a+b;
 sub = a-b;
 multi = a*b;
